@@ -4,6 +4,14 @@ h2 {
   text-align: center;
 }
 
+#container {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+  justify-content: space-around;
+}
+
 #maker {
   display: table;
   border-spacing: 1px;
@@ -16,12 +24,13 @@ h2 {
 .pixel {
   display: table-cell;
   background-color: white;
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
 }
 
 .paintColor {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 40px;
   height: 40px;
   border: 2px solid black;
@@ -32,5 +41,27 @@ h2 {
 
 #palette {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+}
+
+#grayscale{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+}
+
+#skinTones{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+}
+
+#magicColors{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
 }
