@@ -1,15 +1,18 @@
 h2 {
   font-family: courier, monospace;
-  font-size: 48pt;
+  font-size: 36pt;
   text-align: center;
 }
 
 #container {
   display: flex;
   flex-direction: row;
-  padding: 15px;
-  margin: 15px;
-  justify-content: space-around;
+  justify-content: space-around
+}
+
+#innerContainer {
+  display: flex;
+  flex-direction: row
 }
 
 #maker {
@@ -18,14 +21,14 @@ h2 {
   background-color: #CFCDCD;
   border: 15px solid #CFCDCD;
   border-radius: 10px;
-  margin: 0 auto;
+  margin-left: 30px;
 }
 
 .pixel {
   display: table-cell;
   background-color: white;
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
 }
 
 .paintColor {
@@ -42,7 +45,7 @@ h2 {
 #palette {
   display: flex;
   flex-direction: row;
-  padding: 15px;
+  justify-content: space-around;
 }
 
 #grayscale{
