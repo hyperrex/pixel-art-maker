@@ -4,6 +4,13 @@ h2 {
   text-align: center;
 }
 
+.text {
+  font-family: courier, monospace;
+  font-size: 18pt;
+  text-align: left;
+  justify-content: center;
+}
+
 #container {
   display: flex;
   flex-direction: row;
@@ -44,25 +51,47 @@ h2 {
 
 #palette {
   display: flex;
+  flex-direction: column;
+}
+
+#swatches {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-#grayscale{
+#selected {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+#selectedColor {
+  margin-left: 20px;
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 22px;
+}
+
+#grayscale {
   display: flex;
   flex-direction: row;
   padding: 15px;
   margin: 15px;
 }
 
-#skinTones{
+#skinTones {
   display: flex;
   flex-direction: row;
   padding: 15px;
   margin: 15px;
 }
 
-#magicColors{
+#magicColors {
   display: flex;
   flex-direction: row;
   padding: 15px;

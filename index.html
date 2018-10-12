@@ -13,67 +13,73 @@
   <div id="container">
     <div id="innerContainer">
       <div id="palette">
-        <div id="grayscale">
-          <div class="colorColumn">
-            <div class="paintColor" style="background-color:#FFFFFF;" onclick="setPenColor('#FFFFFF')"></div>
-            <div class="paintColor" style="background-color:#F2F2F2;" onclick="setPenColor('#F2F2F2')"></div>
-            <div class="paintColor" style="background-color:#E5E5E5;" onclick="setPenColor('#E5E5E5')"></div>
-            <div class="paintColor" style="background-color:#CCCCCC;" onclick="setPenColor('#CCCCCC')"></div>
-            <div class="paintColor" style="background-color:#B2B2B2;" onclick="setPenColor('#B2B2B2')"></div>
-            <div class="paintColor" style="background-color:#999999;" onclick="setPenColor('#999999')"></div>
+        <div id="swatches">
+          <div id="grayscale">
+            <div class="colorColumn">
+              <div class="paintColor" style="background-color:#FFFFFF;" onclick="setPenColor('#FFFFFF')"></div>
+              <div class="paintColor" style="background-color:#F2F2F2;" onclick="setPenColor('#F2F2F2')"></div>
+              <div class="paintColor" style="background-color:#E5E5E5;" onclick="setPenColor('#E5E5E5')"></div>
+              <div class="paintColor" style="background-color:#CCCCCC;" onclick="setPenColor('#CCCCCC')"></div>
+              <div class="paintColor" style="background-color:#B2B2B2;" onclick="setPenColor('#B2B2B2')"></div>
+              <div class="paintColor" style="background-color:#999999;" onclick="setPenColor('#999999')"></div>
+            </div>
+            <div class="colorColumn">
+              <div class="paintColor" style="background-color:#7F7F7F;" onclick="setPenColor('#7F7F7F')"></div>
+              <div class="paintColor" style="background-color:#666666;" onclick="setPenColor('#666666')"></div>
+              <div class="paintColor" style="background-color:#4C4C4C;" onclick="setPenColor('#4C4C4C')"></div>
+              <div class="paintColor" style="background-color:#333333;" onclick="setPenColor('#333333')"></div>
+              <div class="paintColor" style="background-color:#191919;" onclick="setPenColor('#191919')"></div>
+              <div class="paintColor" style="background-color:#000000;" onclick="setPenColor('#000000')"></div>
+            </div>
           </div>
-          <div class="colorColumn">
-            <div class="paintColor" style="background-color:#7F7F7F;" onclick="setPenColor('#7F7F7F')"></div>
-            <div class="paintColor" style="background-color:#666666;" onclick="setPenColor('#666666')"></div>
-            <div class="paintColor" style="background-color:#4C4C4C;" onclick="setPenColor('#4C4C4C')"></div>
-            <div class="paintColor" style="background-color:#333333;" onclick="setPenColor('#333333')"></div>
-            <div class="paintColor" style="background-color:#191919;" onclick="setPenColor('#191919')"></div>
-            <div class="paintColor" style="background-color:#000000;" onclick="setPenColor('#000000')"></div>
+          <div id="skinTones">
+            <div class="colorColumn">
+              <div class="paintColor" style="background-color:#3b2219;" onclick="setPenColor('#3b2219')"></div>
+              <div class="paintColor" style="background-color:#6F331D;" onclick="setPenColor('#6F331D')"></div>
+              <div class="paintColor" style="background-color:#9A572A;" onclick="setPenColor('#9A572A')"></div>
+              <div class="paintColor" style="background-color:#A16E4B;" onclick="setPenColor('#A16E4B')"></div>
+              <div class="paintColor" style="background-color:#d4aa78;" onclick="setPenColor('#d4aa78')"></div>
+              <div class="paintColor" style="background-color:#e6bc98;" onclick="setPenColor('#e6bc98')"></div>
+            </div>
+            <div class="colorColumn">
+              <div class="paintColor" style="background-color:#fff5e8;" onclick="setPenColor('#fff5e8')"></div>
+              <div class="paintColor" style="background-color:#ffeacf;" onclick="setPenColor('#ffeacf')"></div>
+              <div class="paintColor" style="background-color:#ffdeb6;" onclick="setPenColor('#ffdeb6')"></div>
+              <div class="paintColor" style="background-color:#ffd29d;" onclick="setPenColor('#ffd29d')"></div>
+              <div class="paintColor" style="background-color:#FbC5A4;" onclick="setPenColor('#FbC5A4')"></div>
+              <div class="paintColor" style="background-color:#AA694d;" onclick="setPenColor('#AA6948')"></div>
+            </div>
+          </div> 
+          <div id="magicColors">
+            <div class="colorColumn">
+              <div class="paintColor" style="background-color:#3d0099;" onclick="setPenColor('#3d0099')"></div>
+              <div class="paintColor" style="background-color:#000080;" onclick="setPenColor('#000080')"></div>
+              <div class="paintColor" style="background-color:#009900;" onclick="setPenColor('#009900')""></div>
+              <div class="paintColor" style="background-color:#999900;" onclick="setPenColor('#999900')"></div>
+              <div class="paintColor" style="background-color:#995c00;" onclick="setPenColor('#995c00')"></div>
+              <div class="paintColor" style="background-color:#990000;" onclick="setPenColor('#990000')"></div>
+            </div>
+            <div class="colorColumn">
+              <div class="paintColor" style="background-color:#6600ff;" onclick="setPenColor('#6600ff')"></div>
+              <div class="paintColor" style="background-color:#0000ff;" onclick="setPenColor('#0000ff')"></div>
+              <div class="paintColor" style="background-color:#00cc00;" onclick="setPenColor('#00cc00')""></div>
+              <div class="paintColor" style="background-color:#ffff00;" onclick="setPenColor('#ffff00')"></div>
+              <div class="paintColor" style="background-color:#ff9900;" onclick="setPenColor('#ff9900')"></div>
+              <div class="paintColor" style="background-color:#ff0000;" onclick="setPenColor('#ff0000')"></div>
+            </div>
+            <div class="colorColumn">
+              <div class="paintColor" style="background-color:#c299ff;" onclick="setPenColor('#c299ff')"></div>
+              <div class="paintColor" style="background-color:#8080ff;" onclick="setPenColor('#8080ff')"></div>
+              <div class="paintColor" style="background-color:#99ff99;" onclick="setPenColor('#99ff99')""></div>
+              <div class="paintColor" style="background-color:#ffff99;" onclick="setPenColor('#ffff99')"></div>
+              <div class="paintColor" style="background-color:#ffd699;" onclick="setPenColor('#ffd699')"></div>
+              <div class="paintColor" style="background-color:#ff9999;" onclick="setPenColor('#ff9999')"></div>
+            </div>
           </div>
         </div>
-        <div id="skinTones">
-          <div class="colorColumn">
-            <div class="paintColor" style="background-color:#3b2219;" onclick="setPenColor('#3b2219')"></div>
-            <div class="paintColor" style="background-color:#6F331D;" onclick="setPenColor('#6F331D')"></div>
-            <div class="paintColor" style="background-color:#9A572A;" onclick="setPenColor('#9A572A')"></div>
-            <div class="paintColor" style="background-color:#A16E4B;" onclick="setPenColor('#A16E4B')"></div>
-            <div class="paintColor" style="background-color:#d4aa78;" onclick="setPenColor('#d4aa78')"></div>
-            <div class="paintColor" style="background-color:#e6bc98;" onclick="setPenColor('#e6bc98')"></div>
-          </div>
-          <div class="colorColumn">
-            <div class="paintColor" style="background-color:#fff5e8;" onclick="setPenColor('#fff5e8')"></div>
-            <div class="paintColor" style="background-color:#ffeacf;" onclick="setPenColor('#ffeacf')"></div>
-            <div class="paintColor" style="background-color:#ffdeb6;" onclick="setPenColor('#ffdeb6')"></div>
-            <div class="paintColor" style="background-color:#ffd29d;" onclick="setPenColor('#ffd29d')"></div>
-            <div class="paintColor" style="background-color:#FbC5A4;" onclick="setPenColor('#FbC5A4')"></div>
-            <div class="paintColor" style="background-color:#AA694d;" onclick="setPenColor('#AA6948')"></div>
-          </div>
-        </div> 
-        <div id="magicColors">
-          <div class="colorColumn">
-            <div class="paintColor" style="background-color:#3d0099;" onclick="setPenColor('#3d0099')"></div>
-            <div class="paintColor" style="background-color:#000080;" onclick="setPenColor('#000080')"></div>
-            <div class="paintColor" style="background-color:#009900;" onclick="setPenColor('#009900')""></div>
-            <div class="paintColor" style="background-color:#999900;" onclick="setPenColor('#999900')"></div>
-            <div class="paintColor" style="background-color:#995c00;" onclick="setPenColor('#995c00')"></div>
-            <div class="paintColor" style="background-color:#990000;" onclick="setPenColor('#990000')"></div>
-          </div>
-          <div class="colorColumn">
-            <div class="paintColor" style="background-color:#6600ff;" onclick="setPenColor('#6600ff')"></div>
-            <div class="paintColor" style="background-color:#0000ff;" onclick="setPenColor('#0000ff')"></div>
-            <div class="paintColor" style="background-color:#00cc00;" onclick="setPenColor('#00cc00')""></div>
-            <div class="paintColor" style="background-color:#ffff00;" onclick="setPenColor('#ffff00')"></div>
-            <div class="paintColor" style="background-color:#ff9900;" onclick="setPenColor('#ff9900')"></div>
-            <div class="paintColor" style="background-color:#ff0000;" onclick="setPenColor('#ff0000')"></div>
-          </div>
-          <div class="colorColumn">
-            <div class="paintColor" style="background-color:#c299ff;" onclick="setPenColor('#c299ff')"></div>
-            <div class="paintColor" style="background-color:#8080ff;" onclick="setPenColor('#8080ff')"></div>
-            <div class="paintColor" style="background-color:#99ff99;" onclick="setPenColor('#99ff99')""></div>
-            <div class="paintColor" style="background-color:#ffff99;" onclick="setPenColor('#ffff99')"></div>
-            <div class="paintColor" style="background-color:#ffd699;" onclick="setPenColor('#ffd699')"></div>
-            <div class="paintColor" style="background-color:#ff9999;" onclick="setPenColor('#ff9999')"></div>
-          </div>
+        <div id="selected">
+          <div class="text">Color Selected:</div>
+          <div id="selectedColor"></div>
         </div>
       </div>
       <div id="maker">
